@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+p{
+    margin: 0;
+}
+
 .container{
     margin-top: 15px;
 }
@@ -19,6 +23,7 @@
 
 .item {
     padding: 20px;
+    padding-bottom: 0;
     border: 1px solid #D2D6D7;
     min-height: 300px;
 }
@@ -35,10 +40,6 @@
     text-align: right
 }
 
-.right p{
-    margin: 0;
-}
-
 .arriving{
     font-size: 0.7em;
     text-align: center;
@@ -50,13 +51,17 @@
 }
 
 .time{
+    color: #3A444A;
     font-size: 1.5em;
-    margin-bottom: 0;
 }
 
 .fontSet{
     font-size: 0.7em;
     color: #808E96;
+}
+
+.fontSet2{
+    color: #3A444A;
 }
 
 .blue{
@@ -75,6 +80,10 @@
     height: 25px;
 }
 
+.positionSet2{
+    padding-left: 23px; 
+}
+
 .wrapper{
     margin-left: 8px;
 }
@@ -87,4 +96,11 @@ progress{
     height: 5px;
     width: 115px;
 }
+
+.title{
+    color: #3A444A;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
 
