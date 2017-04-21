@@ -74,6 +74,10 @@ p{
     color: #4ABAD3;
 }
 
+.row .fa-3{
+    color: #FFC000;
+}
+
 .positionSet{
     padding: 0;
     margin-left: 8px;
@@ -101,6 +105,14 @@ progress{
     color: #3A444A;
     font-size: 1.1em;
     font-weight: bold;
+}
+
+.lineSpacing{
+    line-height: 12px;
+}
+
+.nightsFont{
+    font-size: 0.8em;
 }
 
 
