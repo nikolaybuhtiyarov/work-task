@@ -1,0 +1,39 @@
+.header{
+    margin-bottom: 7px;
+}
+
+.trip{
+    font-size: 1.1em;
+}
+
+.destination{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.status{
+    color: #FFFFFF;
+    font-size: 0.7em;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 15px;
+    border-radius: 2px;
+    background-color: #46BD70;
+}
+
+.nextTrip{
+    color: #4ABAD3;
+    margin-top: 12px;
+    font-size: 0.8em;
+    float: right;
+}
+
+.row .fa-4{
+    color: #4ABAD3;
+    font-size: 2.7em;
+    margin-left: 20px;
+    float: right;
+}
+
