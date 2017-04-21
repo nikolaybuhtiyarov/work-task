@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,13 @@
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
+
 <body>
 
 
     <div class="container" id="container">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-md-3 col-sm-6 mainCol">
                 <div class="item">
                     <div class="row firstRow">
                         <div class="col-lg-3 col-md-3 col-sm-3">
@@ -27,65 +29,62 @@
                         </div>
                     </div>
                     <div class="wrapper">
-                    <div class="row">
-                        <div class="col-lg-1 col-md-1 col-sm-1" id="width" >
-                            <span class="invisible">.</span>
+                        <div class="row">
+                            <div class="col-lg-1 col-md-1 col-sm-1" id="width">
+                                <span class="invisible">.</span>
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-sm-10 timePosition">
+                                <p class="time"><strong>17:50 </strong><span class="blue">DTW</span></p>
+                            </div>
                         </div>
-                        <div class="col-lg-10 col-md-10 col-sm-10 timePosition">
-                            <p class="time"><strong>17:50 </strong><span class="blue">DTW</span></p>
+                        <div class="row">
+                            <div class="col-lg-1 col-md-1 col-sm-1" id="width">
+                                <i class="fa fa-map-marker fa-2" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-sm-10 timePosition section">
+                                <p class="location">
+                                    Detroit MI, US-Wayne County, <br> Terminal: EM
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-1 col-md-1 col-sm-1" id="width">
+                                <span class="invisible">.</span>
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-sm-10 timePosition">
+                                <p class="time"><strong>06:25 </strong><span class="blue">LHR</span></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-1 col-md-1 col-sm-1" id="width">
+                                <i class="fa fa-map-marker fa-2" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-sm-10 timePosition section">
+                                <p class="location">
+                                    London GB, Heathrow Airport, <br> Terminal: 3
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-1 col-md-1 col-sm-1" id="width" >
-                            <i class="fa fa-map-marker fa-2" aria-hidden="true"></i>
-                        </div>
-                        <div class="col-lg-10 col-md-10 col-sm-10 timePosition section">
-                            <p class="location">
-                                Detroit MI, US-Wayne County, <br>
-                                Terminal: EM
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-1 col-md-1 col-sm-1" id="width" >
-                            <span class="invisible">.</span>
-                        </div>
-                        <div class="col-lg-10 col-md-10 col-sm-10 timePosition">
-                            <p class="time"><strong>06:25 </strong><span class="blue">LHR</span></p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-1 col-md-1 col-sm-1" id="width" >
-                            <i class="fa fa-map-marker fa-2" aria-hidden="true"></i>
-                        </div>
-                        <div class="col-lg-10 col-md-10 col-sm-10 timePosition section">
-                            <p class="location">
-                                London GB, Heathrow Airport, <br>
-                                Terminal: 3
-                            </p>
-                        </div>
-                    </div>
-                    
-                   
-                    </div>
-                     <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12" id="width" >
+                        <div class="col-lg-12 col-md-12 col-sm-12">
                             <p class="location">Virgin Atlantic - 108</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12" id="width" >
-                            <p class="location">Virgin Atlantic - 108</p>
+                        <div class="col-lg-12 col-md-12 col-sm-12 right">
+                            <progress value="100" max="100"></progress>
+                            <p class="location">Total time: 7hrs. 35min, Direct</p>
                         </div>
                     </div>
-                </div>       
+                </div>
             </div>
 
 
 
 
 
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-md-3 col-sm-6 mainCol">
                 <div class="item">
                     <div class="firstRow">
                         <img src="./images/avis.png" id="photo">
@@ -93,26 +92,26 @@
                     <div class="firstRow firstRowRight">
                         <p>Fri, 22 April</p>
                     </div>
-                </div>       
+                </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-md-3 col-sm-6 mainCol">
                 <div class="item">
                     <p>Test</p>
-                </div>       
+                </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-md-3 col-sm-6 mainCol">
                 <div class="item">
                     <p>Test</p>
-                </div>       
+                </div>
             </div>
-            
         </div>
     </div>
-    
+
 
 
     <script src=" https://use.fontawesome.com/a26c106859.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 
 </body>
+
 </html>

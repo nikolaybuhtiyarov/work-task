@@ -12,10 +12,15 @@
     flex-wrap: wrap;
 }
 
+.mainCol{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .item {
     padding: 20px;
     border: 1px solid #D2D6D7;
-    height: 350px;
+    min-height: 300px;
 }
 
 .firstRow{
@@ -76,4 +81,13 @@
 
 .section{
     margin-bottom: 12px;
+}
+
+progress{
+    height: 5px;
+    width: 115px;
+}
+
+.right{
+    text-align: right;
 }
