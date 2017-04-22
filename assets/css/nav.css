@@ -1,0 +1,27 @@
+nav{
+    height: 20px;
+    background-color: #ffffff;
+}
+
+hr{
+    position: relative;
+    top: -12px;
+    height: 2px;
+    margin: 0;
+    color: #4ABAD3;
+    background-color: #4ABAD3;
+    border: none;
+}
+
+nav .container{
+    margin-top: 0;
+}
+
+.glyphicon-triangle-top{
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    font-size: 1.7em;
+    color: #4ABAD3;
+}

@@ -36,6 +36,7 @@ progress{
     border-radius: 2px;
     background-color: #FFFFFF;
     min-height: 300px;
+    box-shadow:  1px 1px 1px #D2D6D7;
 }
 
 .firstRow{
