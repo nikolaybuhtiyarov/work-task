@@ -23,13 +23,14 @@ p{
 .mainCol{
     padding-left: 10px;
     padding-right: 10px;
+    margin-bottom: 60px;
 }
 
 .item {
     padding: 20px;
     padding-bottom: 0;
-    margin-bottom: 60px;
     border: 1px solid #D2D6D7;
+    border-radius: 2px;
     background-color: #FFFFFF;
     min-height: 300px;
 }

@@ -1,0 +1,29 @@
+ul{
+    list-style: none;
+    width: 390px;
+    display: none;
+}
+
+li{
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+
+    
+}
+
+li a{
+    color: #2684AD;
+}
+
+.mainCol:hover ul{
+    display: inline-block;
+}
+
+.mainCol:hover{
+    margin-bottom: 0;
+}
+
+
+
+

@@ -3,10 +3,12 @@
 }
 
 .trip{
+    color: #3A444A;
     font-size: 1.1em;
 }
 
 .destination{
+    color: #3A444A;
     font-size: 1.3em;
     font-weight: bold;
 }
@@ -33,6 +35,7 @@
 .row .fa-4{
     color: #4ABAD3;
     font-size: 2.7em;
+    font-weight: normal;
     margin-left: 20px;
     float: right;
 }
