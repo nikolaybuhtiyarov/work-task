@@ -1,18 +1,14 @@
 $('.cancel').click(function() {
-  $('.dialog').addClass("visible");
+  $(this).parent().siblings('.dialog').toggle();
 });
 
-
-
-$('.btn-success').on('click',function(event) {
-    $(this).parents('.mainCol').remove();
-    $('.dialog').toggleClass("visible");
-    event.stopPropagation();
+$('.btn-success').click(function() {
+  $(this).closest('.mainCol').remove();
+  $(this).closest('.dialog').toggle();
 });
-
-
     
 $('.btn-danger').click(function() {
-    $('.dialog').toggleClass("visible");
+  $(this).closest('.dialog').toggle();
 });
+
 
