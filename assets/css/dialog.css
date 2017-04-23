@@ -1,0 +1,35 @@
+.dialog{
+    display: none;
+    width: 450px;
+    height: 150px;
+    background-color: #EEF3F4;
+    border: 1px solid #D2D6D7;
+    border-radius: 2px;
+    box-shadow:  1px 1px 2px #D2D6D7;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+.visible{
+    display: inline-block;
+}
+
+.dialog p{
+    font-weight: bold;
+}
+
+.question{
+    text-align: center;
+    margin: 30px 0; 
+}
+
+.buttons{
+    text-align: center;
+}
+
+.btn{
+    margin: 0 10px;
+    width: 90px;
+}
