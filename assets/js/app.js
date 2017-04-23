@@ -11,4 +11,6 @@ $('.btn-danger').click(function() {
   $(this).closest('.dialog').toggle();
 });
 
-
+$('.glyphicon-remove').click(function() {
+  $(this).closest('.dialog').toggle();
+});

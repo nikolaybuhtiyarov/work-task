@@ -33,3 +33,13 @@
     margin: 0 10px;
     width: 90px;
 }
+
+.glyphicon-remove{
+    margin: 3px;
+    float: right;
+    color: #4D4E4E;
+}
+
+.glyphicon-remove:hover{
+    color: #333333;
+}
