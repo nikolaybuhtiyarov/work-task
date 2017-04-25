@@ -1,6 +1,5 @@
 ul{
     list-style: none;
-    width: 390px;
     display: none;
 }
 
@@ -21,6 +20,20 @@ li a{
 .mainCol:hover{
     margin-bottom: 0;
 }
+
+.menu{
+    opacity: 0;
+    width: 390px;
+}
+
+.mainCol:hover .menu{
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
 
 
 
