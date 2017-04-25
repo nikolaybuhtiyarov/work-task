@@ -3,7 +3,9 @@ $('.cancel').click(function() {
 });
 
 $('.btn-success').click(function() {
-  $(this).closest('.mainCol').remove();
+  $(this).closest('.mainCol').fadeOut(500, function(){
+    $(this).remove();
+  });
   $(this).closest('.dialog').toggle();
 });
     
